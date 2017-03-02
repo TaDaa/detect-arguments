@@ -1,7 +1,5 @@
 # detect-arguments
-Detect javascript argument usage using proxy and es6 notation
-
-Simple proxy intended to detect intention to use function arguments.
+Detect javascript argument usage using proxies and es6 notation
 
 Example:
 ````
@@ -11,7 +9,7 @@ resolve = (v) => {
 },
 reject = (v) => {
   console.error(v);
-}
+},
 detector = detect({resolve,reject}); //create a detector using the arguments that we want to monitor.
 
 //user defined function that will detect resolve and reject
