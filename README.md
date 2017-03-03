@@ -1,6 +1,14 @@
 # detect-arguments
 Detect javascript argument usage using proxies and es6 notation
 
+
+<br>
+<br>
+
+
+npm install --save-dev detect-arguments
+
+
 Example:
 ````
 const detect = require('detect-arguments'),
