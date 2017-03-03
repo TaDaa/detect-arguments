@@ -35,7 +35,7 @@ if (detector.any({resolve})) {
   console.error('resolve was used!');
 }
 
-//detector.any also accepts and array of names
+//detector.any also accepts an array of names
 if (detector.any(['resolve'])) {
   console.error('I already told you! resolve was used');
 }
